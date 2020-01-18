@@ -1,4 +1,4 @@
-# Key-Frame-Extraction-or-identifying-frames-which-make-a-shot-from-Videos
+# Key-Frame-Extraction-from-Videos
 Using Color Histogram, SVD and Dynamic Clustering Method obtained Key-Frames from a video. 
 
 The color histogram for each of the frames in the video are generated in all three channels (RGB) of 16 bins each. Then color histogram from all channels flattened to large dimension i.e 4096 for each of the frames to obtain multidimensional array where rows represents frames and columns represents features for each frame. The dimension of this multidimensional array is (1832, 4096). There are 1832 frames.
