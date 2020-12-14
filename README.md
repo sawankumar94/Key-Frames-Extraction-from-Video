@@ -1,4 +1,4 @@
-# Key-Frame-Extraction-from-Videos
+# Key-Frames-Extraction-from-Video
 Using Color Histogram, SVD and Dynamic Clustering Method obtained Key-Frames from a video. 
 
 The color histogram for each of the 3*3 blocks i.e 9 blocks/parts of frames in the video are generated in all three channels (RGB) of 6 bins each. These nine histograms are then concatenated together to form a 1944-dimensional feature vector for the frame.
